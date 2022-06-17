@@ -1,7 +1,8 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import{Navbar,Nav,Container,NavDropdown} from 'react-bootstrap';
-import Contact from './pages/Contact';
+import ContactPage from './pages/ContactPage.js';
+
 function App() {
   return (
     <div className="App">
@@ -36,7 +37,7 @@ function App() {
       </Navbar>
       
 
-      <Contact className="mx-3 py-3" />
+      <ContactPage className="mx-3" />
 
 
       <Navbar bg="dark" variant="dark" fixed="bottom">

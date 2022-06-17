@@ -1,9 +1,9 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 import ContactCard from '../components/Contact/ContactCard';
-import './Contact.css'
+import './ContactPage.css'
 
-const Contact = () => {
+const ContactPage = () => {
 
   let contactUs = [
     {
@@ -49,4 +49,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default ContactPage
